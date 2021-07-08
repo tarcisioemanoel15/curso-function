@@ -50,11 +50,11 @@ function maiormenorparinpa() {
 }
 maiormenorparinpa();
 
-const senha = '12345a';
-const inp = '12345';
 
+    const senha = '12345a';
+    const inp = '12345';
 
-function btn(){
+    function btn(){
     const res = document.querySelector('#ent');
     const senha = document.querySelector('#senha').value;
     const senhaD = '12345a';

@@ -1,20 +1,26 @@
-//Callback
-/*
-function somacalback(a, b, funcaoo){
-    return funcaoo(a + b);
-} 
 
-var multiplica = function(total){
-    return total * 2;
-};
+function Callbacksoma(){
+    // Callback //
 
-console.log(somacalback(5, 4, multiplica));
+    function somacalback(a, b, funcaoo){
+        return funcaoo(a + b);
+    } 
+
+    var multiplica = function(total){
+        return total * 2;
+    };
+
+    console.log(somacalback(5, 4, multiplica));
+                
+                                     //função completa e no retorno coloco o que quiser   
+    console.log(somacalback(10, 8, function(total){
+        return total - 8 ;
+    }));
+}
+//   Callbacksoma();
 
 
-console.log(somacalback(10, 8, function(total){
-    return total - 8 ;
-}));
-*/ 
+
 
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -22,35 +28,30 @@ console.log(somacalback(10, 8, function(total){
 
 
 
+function MediaDeAlunos(){
+    //Media de alunos sinples
+const a = 7;
+const b = 7;
+const c = 7;
+const d = 7;
 
+function somaMrdia(a, b, c, d){
+    return a + b + c + d;
+}
+const nota = somaMrdia(a, b, c, d);
 
-
-
-function maiormenor(num1, num2){
-    if(num1 > num2){
-        return num1; 
-    }else if(num1 < num2){
-        return num2;
-    }else if(num1 === num2){
-        return num1;
+function calculaMedia(nota){
+    const media = nota / 4 ; 
+    if(media >= 7){
+        return (`Sua media é ${media} voce foi Aprovado`)
     }else{
-        return  'Não é valido so é permitido numeros';
+        return (`Sua media é ${media} voçe foi Reprovado`)
     }
 }
 
-const tt = maiormenor(8, 7);
-//console.log(tt);
+console.log(calculaMedia(nota));
 
-function par(tt){
-   
-    if(tt%2===0){
-        return ("PAR");
-    }else{
-        return ("INPAR");
-    }
 }
+MediaDeAlunos();
 
-const juntan = par(tt);
-
-console.log(`O maior numero é ${tt} e é ${juntan}`);
 
