@@ -1,3 +1,38 @@
-body{
-    background: blue;
+body{    
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    border-bottom: 100%;
 }
+.con0{
+    text-align: center;
+}
+.con{
+    padding:8%;
+}   
+
+.div{
+    width: 50%;
+    height: 50%;
+    padding: 50px;
+    background: chartreuse;
+}   
+
+.sen{
+    text-align: center;
+}
+
+
+    .sen div{
+        background: chocolate;
+        padding: 1%;
+        width: 50%;
+    } 
+    
+     
+     
+         
+    
+     
+
+
