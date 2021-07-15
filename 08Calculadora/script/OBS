@@ -1,0 +1,33 @@
+[obs] THIS
+algumas dicas para que
+eu nçao esquesa
+
+quando for criado uma 
+função retornando um objeto
+refernciar o THIS é quem 
+chama a função dentro dentroobjeto
+[exemplo abaixo]
+
+return {
+inicia() {
+// este this aponta pra onde quero
+    this.btn();
+}
+}
+
+iniciei fazendo uma chamada
+de uma função neste caso objetomelhor 
+é fazer uma erom functin
+que ae nao perde o THIS
+mas se azer sem a => é
+só acresentar [.bind(this)]
+no final.
+exemplo abaixo criando 
+a função
+
+btn(){
+                    neste momento o this agora é o document
+                    para refernciar o this de cima
+                    .bind(this) no finalzinho
+    document.addEventListener('click', functin(e){}.bind(this));
+}

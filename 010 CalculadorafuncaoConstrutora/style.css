@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-bottom: transparent;
+}
+
+body{
+    background: blue;
+}
+
+.calculadora{
+    display: flex;
+    justify-content: center;
+
+    margin: 10px;
+    background: violet;
+    width: 250px;
+    height: 150px;
+}
+
+.display{
+    
+    text-align: right;
+    color: red;
+    background: black;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.btn{
+    width: 100%;
+    background: rgb(34, 33, 33);
+    color: seashell;
+}
