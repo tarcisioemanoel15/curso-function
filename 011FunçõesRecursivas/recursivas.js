@@ -1,5 +1,5 @@
 
-// recurciva uma funcao que se cama de volta
+// recurciva uma funcao que se chama de volta
 // lembrando que tem um limite
 //obs funcao normal
 
